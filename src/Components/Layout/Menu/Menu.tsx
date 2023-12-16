@@ -1,5 +1,6 @@
-import {NavLink, useNavigate } from "react-router-dom";
+import {useNavigate } from "react-router-dom";
 import "./Menu.css"
+import { NavLink } from "react-router-dom";
 
 function Menu(): JSX.Element{
 const navigate = useNavigate();
@@ -14,20 +15,18 @@ const home = ()=>{
             <nav>
                 <ul>
                     <li className="projects-li">
-                        <NavLink to='/'>Projects</NavLink>
+                        <   NavLink to='/'>Projects</NavLink>
                         <ul className="projects">
                             <li>
-                            <NavLink to='/coupon'>Coupons</NavLink>
-
+                                <NavLink to="/coupon">Coupon system</NavLink>
                             </li>
                             <li>
-                            <NavLink to='/stock'>Stock</NavLink>
-
+                                <NavLink to="/stock">Stock chart</NavLink>
                             </li>
                         </ul>
                     </li>
                     <li className="other-links-li">
-                        <a href=''>Links</a>
+                        <NavLink to="/">Links</NavLink>
                         <ul className='other-links'>
                             <li>
                                 <a href="https://github.com/DavidMenahem" target='blank'>Github</a>

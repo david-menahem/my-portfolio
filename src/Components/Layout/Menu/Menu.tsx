@@ -1,4 +1,4 @@
-import {useNavigate } from "react-router-dom";
+import {NavLink, useNavigate } from "react-router-dom";
 import "./Menu.css"
 
 function Menu(): JSX.Element{
@@ -14,13 +14,15 @@ const home = ()=>{
             <nav>
                 <ul>
                     <li className="projects-li">
-                        <a href='/#/portfolio'>Projects</a>
+                        <NavLink to='/'>Projects</NavLink>
                         <ul className="projects">
                             <li>
-                                <a href="/#/coupon">Coupon system</a>
+                            <NavLink to='/coupon'>Coupons</NavLink>
+
                             </li>
                             <li>
-                                <a href="/#/stock">Stock chart</a>
+                            <NavLink to='/stock'>Stock</NavLink>
+
                             </li>
                         </ul>
                     </li>

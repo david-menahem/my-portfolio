@@ -1,0 +1,5 @@
+.stock-header{
+    border: var(--BORDER);
+    border-radius: 10%;
+    text-align: center;
+}

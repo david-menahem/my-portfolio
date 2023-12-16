@@ -1,0 +1,9 @@
+.picture{
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .picture img{
+    border: var(--BORDER);
+    border-radius: 50%;
+  }

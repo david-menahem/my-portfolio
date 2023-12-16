@@ -7,6 +7,7 @@ function Routing(): JSX.Element{
     return(
                 <Routes>
                     <Route path="/" element = {<Main/> }></Route>
+                    <Route path="/portfolio" element = {<Main/> }></Route>
                     <Route path="/coupon" element={<Coupon/>}></Route>
                     <Route path="/stock" element={<Stock/>}></Route>
                 </Routes>

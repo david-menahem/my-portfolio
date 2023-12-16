@@ -14,13 +14,13 @@ const home = ()=>{
             <nav>
                 <ul>
                     <li className="projects-li">
-                        <a href='/'>Projects</a>
+                        <a href='/#/portfolio'>Projects</a>
                         <ul className="projects">
                             <li>
-                                <a href="/coupon">Coupon system</a>
+                                <a href="/#/coupon">Coupon system</a>
                             </li>
                             <li>
-                                <a href="/stock">Stock chart</a>
+                                <a href="/#/stock">Stock chart</a>
                             </li>
                         </ul>
                     </li>

@@ -15,7 +15,7 @@ const home = ()=>{
             <nav>
                 <ul>
                     <li className="projects-li">
-                        <   NavLink to='/'>Projects</NavLink>
+                        <NavLink to='/'>Projects</NavLink>
                         <ul className="projects">
                             <li>
                                 <NavLink to="/coupon">Coupon system</NavLink>

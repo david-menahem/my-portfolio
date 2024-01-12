@@ -15,7 +15,7 @@ function Coupon(): JSX.Element{
     return(<div className="coupon">
             <div className="coupon-header">
                 <h1>Coupon management system</h1>
-                <p>A system for managing coupons between customers and companies</p>
+                <p>A system for managing coupons for customers and companies</p>
                 <p>A React single page web app with a Java api and MySql database</p>
             </div>
             <div className="links">

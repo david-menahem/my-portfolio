@@ -19,8 +19,8 @@ function Coupon(): JSX.Element{
                 <p>A React single page web app with a Java api and MySql database</p>
             </div>
             <div className="links">
-                <a href="https://github.com/DavidMenahem/coupons" target="_blank">Backend code</a>
-                <a href="https://github.com/DavidMenahem/coupons-site" target="_blank">Frontend code</a>
+                <a href="https://github.com/david-menahem/coupons" target="_blank">Backend code</a>
+                <a href="https://github.com/david-menahem/coupons-site" target="_blank">Frontend code</a>
             </div>      
             <div className="images">
                <figure className="figure">

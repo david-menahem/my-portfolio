@@ -29,7 +29,7 @@ const home = ()=>{
                         <NavLink to="/">Links</NavLink>
                         <ul className='other-links'>
                             <li>
-                                <a href="https://github.com/DavidMenahem" target='blank'>Github</a>
+                                <a href="https://github.com/david-menahem" target='blank'>Github</a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/in/david-menahem-49924883/" target='blank'>Linkedin</a>

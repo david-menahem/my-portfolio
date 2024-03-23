@@ -15,7 +15,7 @@ function Stock(): JSX.Element{
                 <p>Select a stock and a timeframe to view a chart</p>
             </div>
             <div className="links">
-                <a href="https://github.com/DavidMenahem/stock" target="_blank">Code</a>
+                <a href="https://github.com/david-menahem/stock" target="_blank">Code</a>
             </div>
             <div className="images">
             <figure className="figure">

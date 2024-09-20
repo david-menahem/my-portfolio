@@ -35,7 +35,7 @@ const home = ()=>{
                                 <a href="https://www.linkedin.com/in/david-menahem-49924883/" target='blank'>Linkedin</a>
                             </li>
                             <li>
-                                <a href="https://docs.google.com/document/d/1Fi5mdDKQeY_ENY45rE3HbwFwDYlKGLNJ/edit?usp=sharing&ouid=107743159920579083508&rtpof=true&sd=true" target="_blank">Resume</a>
+                                <a href="https://docs.google.com/document/d/1TQU-PxdaW81TE0NJpGIS_rjf_TVvx_JBNzsuEnamDec/edit?usp=sharing">Resume</a>
                             </li>
                         </ul>
                     </li>

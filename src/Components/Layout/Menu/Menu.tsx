@@ -21,6 +21,9 @@ const home = ()=>{
                                 <NavLink to="/coupon">Coupon system</NavLink>
                             </li>
                             <li>
+                                <NavLink to="/numbers">Number detection model (notebook)</NavLink>
+                            </li>
+                            <li>
                                 <NavLink to="/stock">Stock chart</NavLink>
                             </li>
                         </ul>

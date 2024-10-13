@@ -10,7 +10,7 @@ import customers from "../../../assets/customers.png";
 
 function Coupon(): JSX.Element{
     useEffect(() =>{
-        window.scrollTo(0,0,);
+        window.scrollTo(0,0);
     },[]);
     return(<div className="coupon">
             <div className="coupon-header">

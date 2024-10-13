@@ -3,7 +3,7 @@ import "./Stock.css"
 import stockCharts from "../../../assets/stock-charts.png";
 function Stock(): JSX.Element{
     useEffect(() =>{
-        window.scrollTo(0,0,);
+        window.scrollTo(0,0);
     },[]);
     
     return(

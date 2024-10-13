@@ -1,6 +1,7 @@
 import {useNavigate } from "react-router-dom";
 import "./Menu.css"
 import { NavLink } from "react-router-dom";
+import links from "../../../links";
 
 function Menu(): JSX.Element{
 const navigate = useNavigate();
@@ -32,13 +33,13 @@ const home = ()=>{
                         <NavLink to="/">Links</NavLink>
                         <ul className='other-links'>
                             <li>
-                                <a href="https://github.com/david-menahem" target='blank'>Github</a>
+                                <a href={links.GITHUB} target='blank'>Github</a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/in/david-menahem-49924883/" target='blank'>Linkedin</a>
+                                <a href={links.LINKEKDIN} target='blank'>Linkedin</a>
                             </li>
                             <li>
-                                <a href="https://docs.google.com/document/d/1TQU-PxdaW81TE0NJpGIS_rjf_TVvx_JBNzsuEnamDec/edit?usp=sharing">Resume</a>
+                                <a href={links.RESUME}>Resume</a>
                             </li>
                         </ul>
                     </li>
